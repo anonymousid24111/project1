@@ -46,15 +46,17 @@
 # Hướng dẫn sử dụng
 ***Frontend*** 
 ### Hướng dẫn chạy Project
+Bước 1 : Tải và giải nén folder. Mở cmd dến thư mục Project1/src chạy ***npm install*** để cài đặt các node_modules cần thiết phía server.
+Sau đó, cd đến thư mục Project1/src/client chạy ***npm install*** để cài đặt các node_modules cần thiết phía client.
 
-Bước 1 : Mở  Visual Studio Code
+Bước 1 : Mở cmd và tạo cơ sở dữ liệu tên dbProducts trên MySQL Server(user: root và password: a. Nếu đăng nhập với user khác thì sửa lại file src/models/mysql.models.js) và MongoDB Server.
 
-Bước 2 : Chọn **File** => **Open Folder** => chọn folder **project1** => chọn **Select Foler**
+Bước 2 : Thêm dữ liệu vào products trong database dbProducts đã tạo ở Bước 1. MySQL Server lấy dữ liệu ở file src/dataMySql.txt.
+MongoDB Server lấy dữ liệu ở file src/dataMongodb.json
 
-Bước 3 : Vào **Foler-project1** trên thanh công cụ => gõ **cmd**
+Bước 5 : Di chuyển vào **Project1/src** trên cmd
 
-Bước 4 : Khi Đã hiện **cmd** => gõ **cd my-ap** => gõ **npm start** 
-để chạy project của bạn
+Bước 6 : Gõ **npm start** để chạy project của bạn
 
  =======> chạy project thành công 
  
