@@ -59,7 +59,7 @@ Bước 4 : Di chuyển vào **Project1/src** trên cmd
 Bước 5 : Gõ **npm start** để chạy project của bạn
 
  =======> chạy project thành công 
- 
+Video hướng dẫn cài đặt: https://youtu.be/Sk_LxP9Xo2A 
 ### Hướng dẫn sử dụng Web
 #### 1. Một trang Web bán SIM gồm : ###
 *  **Home** :
@@ -92,6 +92,8 @@ Bước 5 : Gõ **npm start** để chạy project của bạn
 * **Sigup** : Đăng ký tài khoản
 
 ![alt](https://github.com/luyen175638/luyen2107/blob/master/media/a8.png)
+
+Video hướng dẫn sử dụng: https://www.youtube.com/watch?v=MTyy_6LWcJs
 
 
 
