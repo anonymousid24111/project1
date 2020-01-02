@@ -49,14 +49,14 @@
 Bước 1 : Tải và giải nén folder. Mở cmd dến thư mục Project1/src chạy ***npm install*** để cài đặt các node_modules cần thiết phía server.
 Sau đó, cd đến thư mục Project1/src/client chạy ***npm install*** để cài đặt các node_modules cần thiết phía client.
 
-Bước 1 : Mở cmd và tạo cơ sở dữ liệu tên dbProducts trên MySQL Server(user: root và password: a. Nếu đăng nhập với user khác thì sửa lại file src/models/mysql.models.js) và MongoDB Server.
+Bước 2 : Mở cmd và tạo cơ sở dữ liệu tên dbProducts trên MySQL Server(user: root và password: a. Nếu đăng nhập với user khác thì sửa lại file src/models/mysql.models.js) và MongoDB Server.
 
-Bước 2 : Thêm dữ liệu vào products trong database dbProducts đã tạo ở Bước 1. MySQL Server lấy dữ liệu ở file src/dataMySql.txt.
+Bước 3 : Thêm dữ liệu vào products trong database dbProducts đã tạo ở Bước 1. MySQL Server lấy dữ liệu ở file src/dataMySql.txt.
 MongoDB Server lấy dữ liệu ở file src/dataMongodb.json
 
-Bước 5 : Di chuyển vào **Project1/src** trên cmd
+Bước 4 : Di chuyển vào **Project1/src** trên cmd
 
-Bước 6 : Gõ **npm start** để chạy project của bạn
+Bước 5 : Gõ **npm start** để chạy project của bạn
 
  =======> chạy project thành công 
  
